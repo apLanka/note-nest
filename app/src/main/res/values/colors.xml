@@ -2,4 +2,18 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    
+    <!-- Onboarding screen colors -->
+    <color name="primary_purple">#B08CFF</color>
+    <color name="light_purple">#E8DDFF</color>
+    <color name="dark_purple">#47366C</color>
+    <color name="png_text_gray">#808080</color>
+    
+    <!-- Starter screen colors -->
+    <color name="purple_primary">#B08CFF</color>
+    <color name="gray_text">#666666</color>
+    
+    <!-- Sign up screen colors -->
+    <color name="gray_hint">#CCCCCC</color>
+    <color name="input_stroke_color">@color/light_purple</color>
 </resources>
