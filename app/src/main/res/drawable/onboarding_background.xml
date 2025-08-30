@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base white background -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+    
+    <!-- Top curved section -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/primary_purple" />
+            <corners 
+                android:bottomLeftRadius="100dp"
+                android:bottomRightRadius="100dp" />
+        </shape>
+        <size android:height="350dp" />
+    </item>
+    
+    <!-- Light purple accent curve -->
+    <item android:top="300dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/light_purple" />
+            <corners 
+                android:bottomLeftRadius="80dp"
+                android:bottomRightRadius="80dp" />
+        </shape>
+        <size android:height="150dp" />
+    </item>
+</layer-list>
