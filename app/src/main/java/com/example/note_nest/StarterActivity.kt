@@ -22,11 +22,11 @@ class StarterActivity : AppCompatActivity() {
             insets
         }
         
-        val getStartedButton = findViewById<androidx.appcompat.widget.AppCompatButton>(R.id.btn_get_started)
-        getStartedButton.setOnClickListener {
-            startActivity(Intent(this, OnboardingActivity::class.java))
-            finish()
-        }
+//        val getStartedButton = findViewById<androidx.appcompat.widget.AppCompatButton>(R.id.btn_get_started)
+//        getStartedButton.setOnClickListener {
+//            startActivity(Intent(this, OnboardingActivity::class.java))
+//            finish()
+//        }
         
         Handler(Looper.getMainLooper()).postDelayed({
             startActivity(Intent(this, OnboardingActivity::class.java))
