@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ArrayAdapter
 import android.widget.ImageView
 import androidx.appcompat.widget.SearchView
 import android.widget.Spinner
@@ -39,6 +40,7 @@ class GroupsFragment : Fragment() {
         
         initViews(view)
         setupRecyclerView()
+        setupSpinners()
         loadSampleData()
         setupListeners()
     }
@@ -61,6 +63,31 @@ class GroupsFragment : Fragment() {
         }
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
         recyclerView.adapter = groupsAdapter
+    }
+
+    private fun setupSpinners() {
+        // Setup Module filter spinner
+        val moduleOptions = listOf(
+            getString(R.string.filter_module_option_module),
+            getString(R.string.filter_module_option_dsa),
+            getString(R.string.filter_module_option_mad),
+            getString(R.string.filter_module_option_se),
+            getString(R.string.filter_module_option_esd)
+        )
+        val moduleAdapter = ArrayAdapter(requireContext(), android.R.layout.simple_spinner_item, moduleOptions)
+        moduleAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        moduleSpinner.adapter = moduleAdapter
+
+        // Setup Members filter spinner
+        val membersOptions = listOf(
+            getString(R.string.filter_members_option_members),
+            getString(R.string.filter_members_option_1_5),
+            getString(R.string.filter_members_option_6_10),
+            getString(R.string.filter_members_option_10_plus)
+        )
+        val membersAdapter = ArrayAdapter(requireContext(), android.R.layout.simple_spinner_item, membersOptions)
+        membersAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        membersSpinner.adapter = membersAdapter
     }
 
     private fun loadSampleData() {

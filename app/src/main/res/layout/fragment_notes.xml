@@ -91,8 +91,7 @@
             android:layout_height="40dp"
             android:layout_weight="1"
             android:layout_marginEnd="8dp"
-            android:background="@drawable/spinner_background"
-            android:entries="@array/filter_all_options" />
+            android:background="@drawable/spinner_background" />
 
         <Spinner
             android:id="@+id/spinnerModule"
@@ -100,8 +99,7 @@
             android:layout_height="40dp"
             android:layout_weight="1"
             android:layout_marginHorizontal="8dp"
-            android:background="@drawable/spinner_background"
-            android:entries="@array/filter_module_options" />
+            android:background="@drawable/spinner_background" />
 
         <Spinner
             android:id="@+id/spinnerDate"
@@ -109,8 +107,7 @@
             android:layout_height="40dp"
             android:layout_weight="1"
             android:layout_marginStart="8dp"
-            android:background="@drawable/spinner_background"
-            android:entries="@array/filter_date_options" />
+            android:background="@drawable/spinner_background" />
 
     </LinearLayout>
 

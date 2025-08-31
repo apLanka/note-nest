@@ -1,15 +1,13 @@
 <resources>
     <string name="app_name">note-nest</string>
-    
-    <!-- Notes screen strings -->
+
     <string name="notes_title">Notes</string>
     <string name="search_hint">Search</string>
     <string name="filter_all">All</string>
     <string name="filter_module">Module</string>
     <string name="filter_date">Date</string>
     <string name="add_note">Add Note</string>
-    
-    <!-- Filter options -->
+
     <string name="filter_all_option_all">All</string>
     <string name="filter_all_option_notes">Notes</string>
     <string name="filter_all_option_assignments">Assignments</string>
@@ -31,33 +29,4 @@
     <string name="filter_members_option_6_10">6-10 members</string>
     <string name="filter_members_option_10_plus">10+ members</string>
     
-    <!-- Arrays for spinners -->
-    <string-array name="filter_all_options">
-        <item>@string/filter_all_option_all</item>
-        <item>@string/filter_all_option_notes</item>
-        <item>@string/filter_all_option_assignments</item>
-        <item>@string/filter_all_option_lectures</item>
-    </string-array>
-    
-    <string-array name="filter_module_options">
-        <item>@string/filter_module_option_module</item>
-        <item>@string/filter_module_option_dsa</item>
-        <item>@string/filter_module_option_mad</item>
-        <item>@string/filter_module_option_se</item>
-        <item>@string/filter_module_option_esd</item>
-    </string-array>
-    
-    <string-array name="filter_date_options">
-        <item>@string/filter_date_option_date</item>
-        <item>@string/filter_date_option_today</item>
-        <item>@string/filter_date_option_this_week</item>
-        <item>@string/filter_date_option_this_month</item>
-    </string-array>
-    
-    <string-array name="filter_members_options">
-        <item>@string/filter_members_option_members</item>
-        <item>@string/filter_members_option_1_5</item>
-        <item>@string/filter_members_option_6_10</item>
-        <item>@string/filter_members_option_10_plus</item>
-    </string-array>
 </resources>

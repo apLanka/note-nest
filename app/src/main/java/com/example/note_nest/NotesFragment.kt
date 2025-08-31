@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.SearchView
 import android.widget.Spinner
@@ -40,6 +41,7 @@ class NotesFragment : Fragment() {
         
         initViews(view)
         setupRecyclerView()
+        setupSpinners()
         loadSampleData()
         setupListeners()
     }
@@ -63,6 +65,42 @@ class NotesFragment : Fragment() {
         }
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
         recyclerView.adapter = notesAdapter
+    }
+
+    private fun setupSpinners() {
+        // Setup All filter spinner
+        val allOptions = listOf(
+            getString(R.string.filter_all_option_all),
+            getString(R.string.filter_all_option_notes),
+            getString(R.string.filter_all_option_assignments),
+            getString(R.string.filter_all_option_lectures)
+        )
+        val allAdapter = ArrayAdapter(requireContext(), android.R.layout.simple_spinner_item, allOptions)
+        allAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        allSpinner.adapter = allAdapter
+
+        // Setup Module filter spinner
+        val moduleOptions = listOf(
+            getString(R.string.filter_module_option_module),
+            getString(R.string.filter_module_option_dsa),
+            getString(R.string.filter_module_option_mad),
+            getString(R.string.filter_module_option_se),
+            getString(R.string.filter_module_option_esd)
+        )
+        val moduleAdapter = ArrayAdapter(requireContext(), android.R.layout.simple_spinner_item, moduleOptions)
+        moduleAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        moduleSpinner.adapter = moduleAdapter
+
+        // Setup Date filter spinner
+        val dateOptions = listOf(
+            getString(R.string.filter_date_option_date),
+            getString(R.string.filter_date_option_today),
+            getString(R.string.filter_date_option_this_week),
+            getString(R.string.filter_date_option_this_month)
+        )
+        val dateAdapter = ArrayAdapter(requireContext(), android.R.layout.simple_spinner_item, dateOptions)
+        dateAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        dateSpinner.adapter = dateAdapter
     }
 
     private fun loadSampleData() {
