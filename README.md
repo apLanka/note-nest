@@ -1,4 +1,4 @@
-# note-nest
+# Note Nest
 
 <div align="center">
   <img src="app/src/main/res/drawable/logo.png" alt="Note Nest Logo" width="120" height="120">
