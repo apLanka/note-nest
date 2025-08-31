@@ -42,18 +42,15 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.nav_notes -> {
-                    // Load NotesFragment when created
-                    // loadFragment(NotesFragment.newInstance())
+                    loadFragment(NotesFragment.newInstance())
                     true
                 }
                 R.id.nav_groups -> {
-                    // Load GroupsFragment when created
-                    // loadFragment(GroupsFragment.newInstance())
+                    loadFragment(GroupsFragment.newInstance())
                     true
                 }
                 R.id.nav_profile -> {
-                    // Load ProfileFragment when created
-                    // loadFragment(ProfileFragment.newInstance())
+                    loadFragment(ProfileFragment.newInstance())
                     true
                 }
                 else -> false

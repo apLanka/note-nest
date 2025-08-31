@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">note-nest</string>
+    
+    <!-- Notes screen strings -->
+    <string name="notes_title">Notes</string>
+    <string name="search_hint">Search</string>
+    <string name="filter_all">All</string>
+    <string name="filter_module">Module</string>
+    <string name="filter_date">Date</string>
+    <string name="add_note">Add Note</string>
+    
+    <!-- Spinner arrays -->
+    <string-array name="filter_all_options">
+        <item>All</item>
+        <item>Notes</item>
+        <item>Assignments</item>
+        <item>Lectures</item>
+    </string-array>
+    
+    <string-array name="filter_module_options">
+        <item>Module</item>
+        <item>DSA</item>
+        <item>MAD</item>
+        <item>SE</item>
+        <item>ESD</item>
+    </string-array>
+    
+    <string-array name="filter_date_options">
+        <item>Date</item>
+        <item>Today</item>
+        <item>This Week</item>
+        <item>This Month</item>
+    </string-array>
+    
+    <string-array name="filter_members_options">
+        <item>Members</item>
+        <item>1-5 members</item>
+        <item>6-10 members</item>
+        <item>10+ members</item>
+    </string-array>
 </resources>
