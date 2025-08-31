@@ -10,8 +10,8 @@
         android:id="@+id/memberAvatar"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/logo"
+        android:background="@drawable/rounded_avatar_background"
         android:scaleType="centerCrop"
-        android:background="@drawable/rounded_avatar_background" />
+        android:src="@drawable/pp" />
 
 </LinearLayout>
