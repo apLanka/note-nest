@@ -215,7 +215,7 @@
             android:layout_marginTop="8dp"
             app:cardCornerRadius="8dp"
             app:cardElevation="0dp"
-            android:backgroundTint="@color/light_gray"
+            android:backgroundTint="@color/gray_lightest"
             app:layout_constraintTop_toBottomOf="@id/labelFileUpload"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent">
@@ -255,7 +255,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:textSize="12sp"
-                    android:textColor="@color/purple_500"
+                    android:textColor="@color/primary_purple"
                     android:visibility="gone" />
 
             </LinearLayout>

@@ -44,7 +44,7 @@
         android:gravity="center"
         android:lineSpacingExtra="4dp"
         android:text="Description"
-        android:textColor="@color/gray_text"
+        android:textColor="@color/gray_dark"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/btn_action"
         app:layout_constraintEnd_toEndOf="parent"

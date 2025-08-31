@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:text="Today"
-                android:textColor="@color/gray_text"
+                android:textColor="@color/gray_dark"
                 android:textSize="14sp" />
 
         </LinearLayout>

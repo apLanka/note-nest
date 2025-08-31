@@ -171,7 +171,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Download"
-                    android:textColor="@color/purple_500"
+                    android:textColor="@color/primary_purple"
                     android:textSize="12sp" />
 
             </LinearLayout>
@@ -199,7 +199,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Comment"
-                    android:textColor="@color/purple_500"
+                    android:textColor="@color/primary_purple"
                     android:textSize="12sp" />
 
             </LinearLayout>
@@ -227,7 +227,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Share"
-                    android:textColor="@color/purple_500"
+                    android:textColor="@color/primary_purple"
                     android:textSize="12sp" />
 
             </LinearLayout>

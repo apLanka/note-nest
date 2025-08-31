@@ -67,7 +67,7 @@
             android:layout_height="24dp"
             android:src="@drawable/ic_checkmark"
             android:visibility="visible"
-            app:tint="@color/purple_500" />
+            app:tint="@color/primary_purple" />
 
     </LinearLayout>
 

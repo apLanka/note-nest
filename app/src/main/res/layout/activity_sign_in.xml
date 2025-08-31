@@ -31,7 +31,7 @@
         android:layout_marginTop="8dp"
         android:gravity="center"
         android:text="Sign in to continue to NoteNest"
-        android:textColor="@color/gray_text"
+        android:textColor="@color/gray_dark"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,11 +48,11 @@
         app:boxCornerRadiusBottomStart="12dp"
         app:boxCornerRadiusTopEnd="12dp"
         app:boxCornerRadiusTopStart="12dp"
-        app:boxStrokeColor="@color/input_stroke_color"
+        app:boxStrokeColor="@color/light_purple"
         app:boxStrokeWidth="1dp"
         app:boxStrokeWidthFocused="2dp"
         app:errorEnabled="true"
-        app:hintTextColor="@color/gray_text"
+        app:hintTextColor="@color/gray_dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_subtitle">
@@ -65,7 +65,7 @@
             android:inputType="textEmailAddress"
             android:padding="16dp"
             android:textColor="@color/black"
-            android:textColorHint="@color/gray_hint"
+            android:textColorHint="@color/gray_lighter"
             android:textSize="16sp" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -81,13 +81,13 @@
         app:boxCornerRadiusBottomStart="12dp"
         app:boxCornerRadiusTopEnd="12dp"
         app:boxCornerRadiusTopStart="12dp"
-        app:boxStrokeColor="@color/input_stroke_color"
+        app:boxStrokeColor="@color/light_purple"
         app:boxStrokeWidth="1dp"
         app:boxStrokeWidthFocused="2dp"
         app:errorEnabled="true"
-        app:hintTextColor="@color/gray_text"
+        app:hintTextColor="@color/gray_dark"
         app:passwordToggleEnabled="true"
-        app:passwordToggleTint="@color/gray_text"
+        app:passwordToggleTint="@color/gray_dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/til_email">
@@ -100,7 +100,7 @@
             android:inputType="textPassword"
             android:padding="16dp"
             android:textColor="@color/black"
-            android:textColorHint="@color/gray_hint"
+            android:textColorHint="@color/gray_lighter"
             android:textSize="16sp" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -110,7 +110,7 @@
         android:layout_width="0dp"
         android:layout_height="56dp"
         android:layout_marginTop="40dp"
-        android:backgroundTint="@color/purple_primary"
+        android:backgroundTint="@color/primary_purple"
         android:text="Sign In"
         android:textColor="@color/white"
         android:textSize="18sp"
